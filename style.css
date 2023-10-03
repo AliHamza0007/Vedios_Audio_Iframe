@@ -1,0 +1,143 @@
+/* CSS RESET */
+* {
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root{
+  --bgColor:red;
+  --textCenter:center;
+
+}
+.box {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.item {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  border: 1px solid rgb(3, 3, 3);
+  height: 100px;
+  color: white;
+  background-color: green;
+}
+
+
+ @media (max-width: 800px) {
+  .box {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(57, 13, 219);
+    transition: 2s ease;
+  }
+
+  .item {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  border: 1px solid rgb(3, 3, 3);
+    height: 100px;
+    color: white;
+    background-color: green;
+    transition: 3s ease;
+
+  }
+  
+}
+
+@media (min-width: 1000px) {
+  .box {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(68, 13, 219);
+    transition: 2s ease;
+  }
+
+  .item {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  border: 1px solid rgb(3, 3, 3);
+    height: 100px;
+    color: white;
+    background-color: rgb(240, 95, 12);
+    transition: 3s ease;
+
+  }
+} 
+@media (max-width: 400px) {
+  .box {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(13, 219, 82);
+    transition: 2s ease;
+  }
+
+  .item {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  border: 1px solid rgb(3, 3, 3);
+    height: 100px;
+    color: white;
+    background-color: rgb(128, 47, 0);
+    transition: 3s ease;
+
+  }
+} 
+@media (max-width: 600px) {
+  .box {
+    width: 100%;
+    height: 50vh;
+    border: 1px solid var(--bgColor);
+    background: url("https://cdn.pixabay.com/photo/2023/09/01/12/58/handcraft-8226964_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: var(--textCenter);
+  } 
+
+  .item {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  border: 1px solid rgb(3, 3, 3);
+    height: 100px;
+    color: white;
+    background-color: rgb(128, 47, 0);
+    transition: 3s ease;
+
+  }
+} 
+@media (max-width: 300px) {
+
+  .box {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 10px 10px 8px 10px rgb(99, 95, 95);
+  }  
+
+  .item {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  border: 1px solid rgb(3, 3, 3);
+    height: 100px;
+    color: white;
+    background-color: rgb(128, 47, 0);
+    transition: 3s ease;
+
+  }
+} 
+
